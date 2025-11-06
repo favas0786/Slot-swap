@@ -1,0 +1,14 @@
+# Ignore dependencies (they are installed in the container)
+node_modules
+
+# Ignore local environment files and logs
+.env
+npm-debug.log
+
+# Ignore test files
+tests/
+jest.config.js
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
